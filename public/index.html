@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Front End School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV BAR -->
+  <nav>
+    <div class="heading">frontEnd</div>
+    <input type="checkbox" id="menu-toggle">
+    <label class="hamburger" for="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <ul>
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#Courses">Courses</a></li>
+      <li><a href="#About">About Us</a></li>
+      <li><a href="#Contact">Contact Us</a></li>
+      <li><a href="register.html">Get Started</a></li>
+    </ul>
+  </nav>
+
+  <!-- HOME -->
+  <section id="Home" class="home page reveal">
+    <div class="overlay"></div>
+    <div class="home-content">
+      <h1>Welcome to the <span>frontEnd</span> school</h1>
+      <p>At <strong>frontEnd School</strong>, we believe that learning web development should be engaging, practical, and accessible to everyone. Our mission is to equip students with the essential skills to build modern, responsive, and user-friendly websites using the latest front-end technologies.</p>
+      <a id="user-link" href="register.html">Get Started</a>
+    </div>
+  </section>
+
+  <!-- COURSES -->
+  <section id="Courses" class="course page reveal">
+    <div class="courses-offered">
+      <h2>Courses Available</h2>
+      <div class="learn html">
+        <h2><a href="html.html">HTML</a></h2>
+        <p>HTML is the backbone of every website and the very first step in web development. In this course, you will learn how to properly structure web pages, create accessible content, and organize text, images, and links into meaningful layouts. We’ll guide you through semantic HTML, best practices, and the standards that ensure your projects are both modern and future-proof. By the end, you’ll be confident in building strong foundations for any type of website.</p>
+      </div>
+      <div class="learn css">
+        <h2><a href="css.html">CSS</a></h2>
+        <p>CSS is what turns plain structures into beautiful, engaging web pages. This course takes you deep into styling, from colors and typography to layouts, animations, and responsive design that adapts perfectly to all devices. You’ll explore modern techniques like Flexbox and Grid, while also learning how to keep your styles organized and efficient. By the end of this course, you’ll be able to design websites that look professional, polished, and user-friendly.</p>
+      </div>
+      <div class="learn js">
+        <h2><a href="js.html">JS</a></h2>
+        <p>JavaScript gives life to websites, making them interactive and dynamic. In this course, you’ll master the basics of programming, such as variables, loops, and functions, before moving on to advanced concepts like events, DOM manipulation, and asynchronous programming. We’ll also cover how to solve real-world problems and build projects that bring your ideas to life. By completing this course, you’ll be able to create interactive web applications that respond to users seamlessly.</p>
+      </div>
+      <div class="learn react">
+        <h2><a href="react.html">REACT</a></h2>
+        <p>React is one of the most powerful JavaScript libraries used by companies worldwide to build modern, fast, and scalable applications. This course will teach you how to think in terms of components, manage application state, and structure your projects for long-term growth. You’ll also learn about hooks, routing, and how to connect your React apps to APIs. By the end, you’ll have the skills to build professional-grade single-page applications and join the growing community of React developers.</p>
+      </div>
+      <div class="learn tailwind">
+        <h2><a href="tailwind.html">TAILWIND</a></h2>
+        <p>Tailwind CSS is a utility-first framework that helps you design websites faster and with more flexibility. Instead of writing endless lines of custom CSS, you’ll learn how to use predefined classes to build responsive, modern, and elegant designs directly in your HTML. This course will also teach you how to customize Tailwind for your brand, combine it with React, and create sleek, production-ready user interfaces. By the end, you’ll save time while still delivering creative, polished results.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="About" class="about page reveal">
+    <div class="overlay"></div>
+    <div class="about-us">
+      <h2>About Us</h2>
+      <p>At FrontEnd School, we believe that learning web development should be engaging, practical, and accessible to everyone. Our mission is to equip students with the essential skills to build modern, responsive, and user-friendly websites using the latest front-end technologies. From mastering the basics of HTML and CSS to exploring advanced frameworks like React and Tailwind, we provide a structured learning path that prepares learners for real-world projects. <br>What makes us different is our hands-on approach. Every lesson is designed to bridge theory with practice, ensuring that students not only understand the concepts but also apply them confidently. Whether you’re a beginner taking your first steps into coding or someone looking to sharpen your skills, FrontEnd School offers the guidance, community, and resources you need to grow as a developer..</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="Contact" class="contact page reveal">
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <form action="">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your e-mail" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Front end School. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
